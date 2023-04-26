@@ -1,0 +1,22 @@
+@layer components {
+    .btn {
+        @apply p-2 rounded-md;
+        &.-dark {
+           @apply bg-neutral-900 text-neutral-100  border-neutral-100;
+        }
+        &.-red {
+            @apply bg-red-700 text-red-100 border-red-700;
+        }
+        &.-dark:hover {
+            @apply bg-neutral-950 text-neutral-100
+        }
+
+        &.-red:hover {
+            @apply bg-red-900 text-neutral-100
+        }
+    }
+    .btn:hover {
+        @apply bg-neutral-100 text-neutral-900
+    }
+ 
+};
