@@ -30,12 +30,13 @@ function App() {
         lien 2
       </li>
       <li>
-        lien 3
+        <div><h2> COUCOU, PAvel</h2></div>
       </li>
         
         
         </ul></nav>
     <h2>TITRE</h2>
+    <h3>test</h3>
 
     <button onClick={() => darkMode()} className='btn -dark'>Click me</button>
     <div className='bg-green-700 sm:bg-violet-500'>Un texte à afficher</div>
