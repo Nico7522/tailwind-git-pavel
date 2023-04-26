@@ -30,7 +30,7 @@ function App() {
         lien 2
       </li>
       <li>
-        <div><h2> COUCOU, PAvel</h2></div>
+        element 5
       </li>
         
         
@@ -47,6 +47,7 @@ function App() {
   <div class="bg-primary-red dark:bg-black">
     TEXTT
   </div>
+  <h3>text</h3>
     </>
   )
 }
